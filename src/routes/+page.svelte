@@ -139,6 +139,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
+        width: 100%;
 	}
 	.disc {
 		width: 100%;
@@ -168,7 +169,8 @@
 		transition: all 0.3s ease;
 		outline: none;
 		flex: 1;
-		min-width: 400px;
+		max-width: 400px;
+        width: 80%;
 	}
 	.searchBar form {
 		width: 100%;
