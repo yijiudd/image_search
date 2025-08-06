@@ -1,38 +1,24 @@
-# sv
+# NASA Image Search Engine
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+This project is a simple search engine UI built with [Svelte](https://svelte.dev/) that uses the [NASA Image and Video Library API](https://api.nasa.gov/). The app is deployed on Vercel; you can try it out at the [demo link](https://image-search-five-sigma.vercel.app/).
 
-## Creating a project
+[![preview](./static/preview.png)](https://image-search-five-sigma.vercel.app/)
+## Getting Started
 
-If you're seeing this, you've probably already done this step. Congrats!
+First ,run the development server:
 
-```sh
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
 ```sh
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+#or 
+yarn dev
+#or
+pnpm dev
 ```
+Open (http://localhost:5173) with your browser to the the result 
 
-## Building
-
-To create a production version of your app:
-
+## UI Testing
+we using playwright for auto UI test,run example test
 ```sh
-npm run build
+npm run test:ui
 ```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
